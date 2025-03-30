@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Hello Hello</title>
+</head>
+<body>
+	<p>
+		<a href="index2.html">index2.html in the same directory</a>
+	</p>
+	<p>
+		<a href="/MyFirstApp/">Login</a>
+	</p>
+	<p>
+		<a href="/Greeting/">context path가 Greeting인 경우– Greeting app에 index.html이 없는경우 동작 안함, 현재는 index.html이 있기 때문에 동작함</a>
+	</p>
+	<p>
+		<a href="/Greeting/greeting.html">/Greeting/greeting.html 실행- 정상 동작</a>
+	</p>
+	<p>
+		<a href="/Greeting/hi">/Greeting/hi 실행- 정상 동작</a>
+	</p>
+	<p>
+		<a href="/Greeting/abc.html">apache에는 존재하는 Greeting/abc.html 동작 안함</a>
+	</p>
+	<p>
+		<a href="/dir">index.html in the director "dir"- Apache - 정상 동작</a>
+	</p>
+</body>
+</html>
