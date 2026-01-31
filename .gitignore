@@ -1,0 +1,27 @@
+# Maven 빌드 결과
+target/
+
+# Maven 자동 생성 파일
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# IDE 관련
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+.vscode/
+
+# OS 임시 파일
+*.log
+*.swp
+*.tmp
+.DS_Store
+Thumbs.db
