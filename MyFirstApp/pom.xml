@@ -5,8 +5,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <!-- 프로젝트 기본 정보 -->
-  <groupId>kopo.ac.kr</groupId>
-  <artifactId>MyFirstApp</artifactId>
+  <groupId>dongyang.ac.kr</groupId>
+  <artifactId>myfirstapp</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
@@ -30,7 +30,7 @@
 
   <!-- 빌드 설정 -->
   <build>
-    <finalName>MyFirstApp</finalName>
+    <finalName>myfirstapp</finalName>
     <plugins>
       <!-- WAR 패키징 플러그인 -->
       <plugin>
